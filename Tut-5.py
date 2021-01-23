@@ -29,7 +29,7 @@ addressval = StringVar()
 
 Entry(root,textvariable=nameval).grid(row=0,column=1)
 Entry(root,textvariable=ageval).grid(row=1,column=1)
-Entry(root,textvariable=addressval).grid(row=2,column=2)
+Entry(root,textvariable=addressval).grid(row=2,column=1)
 
 Button(root,text="Submit",borderwidth=5,font=10,command=Subbmited,padx=10).grid()
 
